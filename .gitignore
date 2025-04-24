@@ -402,3 +402,4 @@ FodyWeavers.xsd
 # folders to ignore
 
 data/
+.env_data_ws/
