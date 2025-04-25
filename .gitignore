@@ -403,3 +403,4 @@ FodyWeavers.xsd
 
 data/
 .env_data_ws/
+src/notebooks/
