@@ -406,3 +406,6 @@ data/
 src/notebooks/
 tools/
 env/
+
+files to ignore
+*01_lidar_processing.ipynb
