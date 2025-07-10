@@ -1,7 +1,7 @@
 # environmental_data_workshop
 This project aims to detect and classify different types of greenery in satellite imagery by utilizing color and edge detection techniques. The study area is located in Barcelona, Spain (41.396536, 2.194554). The stable version employs color and edge detection for image segmentation, while an alternative method integrates LiDAR data with convolutional neural networks (CNNs) to determine which approach yields better results. An unstable version is also available on our repository in the NDVI branch . Key performance indicators include the percentage of area covered by trees, grass, and low vegetation.
 ![Vegetation 2_](https://github.com/user-attachments/assets/e0909f66-d2fd-4761-af20-9ad0c2e71833)
-##Project Results
+## Project Results
 We successfully segmented vegetation based on shadow analysis, isolating two general categories. However, this method occasionally misclassifies non-vegetative green objects (e.g., green roofs, synthetic football fields, water, etc…). We hypothesize that incorporating a color mask based on NDVI imagery could improve the detection of genuine vegetation while excluding false positives.
 With this segmentation done, we proceeded to generate charts that show the percentages of vegetation types within the analysed area, also including the percentages of non-green areas. This segmentation of the vegetation types would eventually help us to elucidate KPIs like the percentage of public space protected by tree canopy.![AMOUNT](https://github.com/user-attachments/assets/250384e4-529c-4268-8d4f-165106908976)
 ![Vegetaion area](https://github.com/user-attachments/assets/87d43a1d-bec3-4d1f-b81a-8edb194f5597)
